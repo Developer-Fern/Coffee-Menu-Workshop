@@ -92,4 +92,4 @@ const withBeans = (object) => {
     return console.log(`${object.name} with imported beans`)
 }
 
-const addWithBeans = coffeeMenu.forEach(withBeans)
+coffeeMenu.forEach(withBeans)
